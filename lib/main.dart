@@ -27,6 +27,7 @@ class MyAppState extends State<MyApp> {
               body: Container(
                 child: WebView(
                   initialUrl: "https://www.covid19india.org/",
+                  javascriptMode: JavascriptMode.unrestricted,
                 ),
                 height: double.infinity,
                 width: double.infinity,
